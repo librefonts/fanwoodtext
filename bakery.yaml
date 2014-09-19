@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [FanwoodText-Regular.ttf.ttx, FanwoodText-Italic.ttf.ttx, src/FanwoodText-Regular-TTF.sfd,
+  src/FanwoodText-Italic-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
